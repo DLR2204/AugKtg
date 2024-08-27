@@ -1,0 +1,152 @@
+on-1 ;off -0 -------->binary    [bi-deci]====> ASCII,UNICODE ......
+
+
+programming lang :- programs(set of instructions )
+
+
+
+s.l :- designing website(collection of webpages)
+
+
+
+p.l :- devlop the softwares
+		os,drivers,web app's
+
+							computer langs
+						
+					scripting lang 			programming lang 
+					
+		html,css,js,bootstrap....				pop   oop		
+								basic,cobal				java,.net,lisp,cpp
+								
+								
+								
+			java :-  oop's oopl
+			
+											
+website:- the collection of webpages.
+
+				static webpages:- changes will be stagnant (registration pages)
+				
+				dynamic webpages:-changes will happens regularly(insta news feed)
+				
+				server webpges:-data from the static nd dynamic webpages will get stores here.
+				
+		
+		
+		HTML:-Hyper text Markup Lang
+		
+		hyper text :- text is linked with another web link /web Page.
+		
+		
+		notepad,vs code.
+		
+		
+		tags:- <predefined words>
+		
+				container/pair :-  <predefined words></predefined words>
+				
+				single/empty    :- <predefined words>  or </predefined words> or  <predefined words/>
+		
+		<h1 class="values">Welcome to Html</h1>
+		
+		
+		
+		Lists:- <li></li>
+		
+		ordered list(Numberings)  :-<ol></ol>
+		
+		unordered list (Bullets ):-<ul></ul>
+		
+		
+		
+			LInks :-   <a></a>
+			
+			
+		(1)Text linking
+
+		(2)Image linking
+		
+		
+		<table>
+		<tr><td></td></tr>
+		
+		
+							CSS:-
+							
+		(1)Inline styling:-inside any html tag styling can injected using style attribute
+		
+		(2)Internal styling:-styling in style tag inside the head tag 
+		
+		(3)External styling:-attacthing external css to the html doc.
+		
+		
+		
+		colors:-
+		-------
+		
+		
+		(1)color name :- ex:-red
+		
+		(2)Hexadecimal :- #rgb--->(00-ff)
+		
+		(3)rgb function :- rgb(r,g,b)  ----->(0-255)
+		
+		(4)rgb function with alpha :-  rgb(r,g,b,(0-1))
+		
+		(5)hsl function :- hsl(hue,saturation,lightning) (0-360)(0-100%)
+		
+		(6)hsl with alpha :- hsl(h,s,l,a(0-1))
+		
+		
+		
+		selectors:-
+		----------
+		
+		(1)name based  :- h1{},p,body.....
+		
+		(2)id name (#) :- idname{}
+		
+		(3)class name(.) :-  classname{}
+		
+		(4)universal selector(*) :- *{}
+		
+		
+		javascript:-
+		==========
+		
+		
+		(1)scripting lang :- client side;server side
+		
+		(2)Design dynamic web app's.
+		
+		(3)change the html content
+		
+		(4)Can change the attributes of html tags
+		
+		(5)can change the css
+		
+		(6)can hide our data
+		
+		
+		
+		internal js:- <script> inside the head/body
+		
+		external js :- attaching external js to the html document
+		
+		
+		predefined functions to check the output in js:-
+		
+		
+		(1)innerHTML = based on id the content will be displayed on the webpage(document.getElementById)
+		
+		(2)document.write("text") = given text will be displayed
+		
+		(3)window.alert("text") = alert box wil be appeared with the given text
+		
+		(4)console.log("text") = given text will be displayed in the console window
+		
+		
+				var varname;  --------->declration
+				
+				var varname = values;-------->instiallation
