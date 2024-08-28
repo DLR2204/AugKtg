@@ -1,0 +1,29 @@
+<html>
+<body>
+<h1>Iterative statements-while loop</h1>
+<h2 id="result"></h2>
+
+<button type="button" onclick="loop()">run loop</button>
+
+<script>
+
+function loop(){
+var i=1; var result="";
+
+while(i<=20){
+	
+	result =result+ i+"";
+	
+	result+="<br>";
+
+	i++;
+	
+
+}
+
+document.getElementById("result").innerHTML =result
+
+}
+</script>
+</body>
+</html>
