@@ -150,3 +150,76 @@ website:- the collection of webpages.
 				var varname;  --------->declration
 				
 				var varname = values;-------->instiallation
+				
+				
+				functions :- set of statements all together perform a similar task
+				
+				function functionname(params....){
+				
+				statements;
+				
+				return data;
+				
+				}
+				
+				
+				flow control statement:-
+				
+				(1)conditional statements if,switch,if else..
+				
+				(2)Iterative statements while,do-while,for..
+				
+				(3)Transfer statements. break,contiunue...
+				
+				
+				Number:-
+				
+				
+				10* 20 =integer
+				
+				20/"string" 
+				
+				
+				
+				Bootstrap:-
+				===========
+				
+				To include the bootstrap into the html doc.2 ways:-
+				
+				(1)Cdn (Content delivery network)
+				
+				(2)By downloading bootstrap files from the bootstrap website
+				
+				
+				
+				Grid system:- 
+				------------	Here the webpage will be divided into 12 columns.
+				
+					class="container"
+					
+						class="col"
+						 
+				
+												React:-
+												-------
+				------>CBA (Component based architecture)
+
+					components :- 2 types
+					
+					(1)sateless functional components ------->javascript function
+					
+					(2)statefull class components ----------->javascript class
+												
+		
+		
+		props:-  demo(props){
+		
+		
+		}<html tag  attributes="values">
+		
+		
+		State :-
+		
+		
+		
+		
