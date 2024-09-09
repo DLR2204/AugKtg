@@ -1,0 +1,8 @@
+.movies-section{
+    width: 1300px;
+    height: 490px;
+    padding:5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 9px 2px rgb(68, 102, 105);
+    margin:10px;
+}

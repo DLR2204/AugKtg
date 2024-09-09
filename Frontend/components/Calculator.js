@@ -4,12 +4,17 @@ class Calculator extends Component{
 
     state={a:20,b:15};
 
+
+    setA = e=>{this.setState({a:parseInt(e.target.value)})}
+
+    setB = e=>{this.setState({b:parseInt(e.target.value)})}
+
     render(){
         return(<div><h4>
-            <input type="text"  className='inputA' onChange={e=>{this.setState({a:e.target.value})}}/>
-            <input type="text" className='inputB' onChange={e=>{this.setState({b:e.target.value})}}/><br/>
+            <input type="text"  className='inputA' onChange={this.setA}/>
+            <input type="text" className='inputB' onChange={this.setB}/>
 
-        
+        <button type ="button">Show Result</button><br/><br/><br/>
 
             {'ADD :-' +(this.state.a+ this.state.b)}<br/>
             {'SUB :-' +(this.state.a- this.state.b)}<br/>
