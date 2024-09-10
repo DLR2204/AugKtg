@@ -221,5 +221,8 @@ website:- the collection of webpages.
 		State :-
 		
 		
+		methods  :- set of statements all together performs a particular task.
+		functions
+		
 		
 		
