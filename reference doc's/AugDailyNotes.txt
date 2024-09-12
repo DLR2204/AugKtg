@@ -226,3 +226,54 @@ website:- the collection of webpages.
 		
 		
 		
+		
+		
+		SECURIRY :-  Encapsulation,Abstraction.
+		
+		Performance :- Inheritance , Poloymorphism.
+		
+		
+		(1)platform independency:-
+		
+		(2)Garbage collector:-
+		
+		
+		3 editions:-
+		
+		jse/j2se:-core java [standalone app's(no client-server)]
+		
+		jee/j2ee:-adv java [distributed app's(client-server)] 
+		
+		jme/j2me:-micro core java[mobile app's]
+		
+		
+		
+		1995----sunmicrosys
+		
+		green team -------->green talk(.gt)------------>oak--------------->java(.java)
+		
+		jdk 1.0 ---------------------->jdk 22
+		
+		
+		53------->reserved words(keywords)
+		
+		
+		variables :- 
+		
+		datatype varname; //declaration of a variable
+		
+		datatype varname = value ; //initialization of a variable
+		
+		
+		
+		local variable(inside the method) 			global variable(outside the method)
+		
+		
+											static        instance
+											
+	syntax:-
+	------
+	static :- static dt vn = value;
+	
+	instance :- dt vn = value;
+	
