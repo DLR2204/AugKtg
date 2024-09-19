@@ -258,22 +258,174 @@ website:- the collection of webpages.
 		53------->reserved words(keywords)
 		
 		
-		variables :- 
-		
-		datatype varname; //declaration of a variable
-		
-		datatype varname = value ; //initialization of a variable
-		
-		
-		
-		local variable(inside the method) 			global variable(outside the method)
-		
-		
-											static        instance
-											
+	
+	*******shortcuts in ecllipse ide:-
+	
+	main,syso ---ctrl+space
+	
+	format -----ctrl+shift+f
+	
+	
+	
+	variables:-		
+			
+	syntax:-		
+			
+	datatypes  variablename ; //declaration of a variable
+	
+	
+	datatypes  variablename = value; //intialization of a variable
+	
+	
+	
+			local var(inside the methods) 			gloabal var(outside the mehtod)
+	
+
+												static 			instance 
+												
+												
 	syntax:-
-	------
-	static :- static dt vn = value;
+	-------
+	static :-  	static dt var = vaalue;
 	
-	instance :- dt vn = value;
+	instance:-	dt var = value;
+
+	Access:-
+	-------
 	
+	static :- static prop's can be accessed by the class reference 
+	
+	instance :- instance prop's can be accessed by the object reference
+	
+				object creation:-
+				
+				classname objname = new Classname();
+	
+	
+	Memory space:-
+	-------------
+	
+	static :- static prop's will gets the memory space only once at the time of class loading 
+					into the jvm
+	
+	instance :- instance prop's will gets the memory space for every object creation
+	
+	
+	in memory:-
+	----------
+	
+	static:- Method area
+	
+	instance:- heap area
+	
+	usage:-
+	-----
+	
+	static:- to store the common data.  nationality ="indian"
+	
+	instance:- to store the unique data. aadhar card ="unique"
+	
+	
+	
+				operators:-
+				==========
+				
+				
+				a + b---->operands
+				
+				
+				U-unary 
+				L-Logical
+				T-terinary  ?
+				R-reltional
+				A-assignment =
+				A-arithemetic
+				B-bitwise
+	
+	
+
+	METHODS:-set of statements where altogether performs an unique task.
+	=======
+	syntax:-		accessmodifer returntype methodname(prms..){
+	-------				//body  }
+				
+				2 types:-
+				
+				(1)Static methods
+	
+	syntax:-		accessmodifer static returntype methodname(prms..){
+	-------				//body  }	
+				
+				
+				(2)Dynamic methods
+					
+	syntax:-		accessmodifer returntype methodname(prms..){
+	-------				//body  }				
+	
+	
+	
+	class = var + methods => class members + member functions
+	
+	
+			oops:-
+			
+			
+		Inheritance :-Accquring the parent clss features to the child clss.
+	
+				* Code reusability
+				
+				
+				(1)extends 						(2)implements
+				
+			class ----> class					interface ------>class
+			
+			
+			
+
+
+interface A{					interface B{
+
+add(a,b);						add(a,b);
+
+						
+
+}								}
+
+
+
+class C implements A,B{
+
+add(3,4);
+
+}
+
+
+		*M.I is not supported in java @ class level.
+		
+		* M.I is supported in java @ interface level.
+		
+		
+		
+		methods 2 types:- based on the method body/implementation
+		
+		(1)concrete methods:- the method with method body/implementation
+		====================
+	syntax:-		accessmodifer returntype methodname(prms..){
+	-------				//body  }
+		
+		(2)abstract methods:- the mehtod with out method/implementation
+		====================
+		
+	syntax:-		accessmodifer returntype methodname(prms..);
+	-------			
+		
+		
+		class :- It's the only collection of concrete methods
+		
+		
+		interface :- It's the only collection of abstract methods
+		
+		
+		abstract class :- It's the combination of both concrete methods + abstract methods.
+		
+		
