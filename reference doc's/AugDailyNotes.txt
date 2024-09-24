@@ -429,3 +429,87 @@ add(3,4);
 		abstract class :- It's the combination of both concrete methods + abstract methods.
 		
 		
+		
+		Abstraction:- Hiding the data
+		===========            * SECURITY
+		
+		
+		
+		interface (100%)   abstract class(0-100%)    class(0%)
+		
+		
+		polymorphism:-   * Code Reuseability
+		============
+		
+		(1)MethodOverloading:- Method with the same name but difference is in parms...
+								(a)type of parms..
+								
+								(b)order of prms..
+								
+								(c)no:of parms..
+		
+		(2)MethodOverriding:-Method name is same but the method's implementation is different
+		
+		
+		class Parent{
+		
+		relatives(){}
+		
+		marrige(){
+		kajol;
+		}
+		
+		1000.Cr(){}
+		
+		//1000 methods
+		
+		}
+		
+		class Child extends Parent{
+		
+		
+		@Override
+		marriage(){
+		deepika;
+		}
+		
+		
+		}
+		
+		accessmodifier:-
+		==============
+		
+		Encapsulation:-wrapping up the data into a single entity.
+		==============
+		
+		* The default parent class for every java file is "Object Class".
+		
+		*The default package for every java file "java.lang"
+		
+		
+		
+		Constructor:-To initialize the objects
+		------------
+					*No return type.
+					
+					
+						(1)default constructor
+						
+						
+		syntax:- accessmodifier Classname(){
+		
+			//body
+		}
+		
+		
+		
+				classnme objname = new classnme();
+					
+						
+						(2)parametrized constructor
+						
+						
+		syntax:- accessmodifier Classname(params...){
+		
+			//body
+		}
