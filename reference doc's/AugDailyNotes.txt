@@ -513,3 +513,48 @@ add(3,4);
 		
 			//body
 		}
+		
+		
+		Exception Handling:-
+		-------------------
+		
+		(1)To terminate our program in a normal ways
+		
+		(2)To throw user friendly error msg's.
+		
+		
+		
+		
+		
+		Arrays:-It's the container of variables where every value should be the same type/It's a collection similar kind of objects
+		
+		
+		syntax:-
+		
+				(1) int arr[] = new int[34];
+				
+				arr[6]=45;
+				
+				(2)int arr[] = new int[]{23,45,546,6,6,7,7,7,7};
+				
+				(3)int arr[] = {3,2,5,3435,45,4,5,45,45,4};
+				
+				
+				
+	(1)Array length is fixed
+	
+	(2)It will only homogenous elements
+	
+	(3)No utility methods
+	
+	
+	
+	Collections:-Framework
+	===========
+	
+	(1)Growable in nature
+	
+	(2)It will stores both homogenous,heterogenous data
+	
+	(3)It will have lots of uility methods.
+	
