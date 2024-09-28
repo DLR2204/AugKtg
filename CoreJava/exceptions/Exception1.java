@@ -17,17 +17,18 @@ public class Exception1 {
 		int den = scan.nextInt();
 
 		try {
-			int result = (num / den);
-
-			System.out.println("The division result is:-" + result);
+		
+		int result = num/den;
+		
+		System.out.println( "The division result is:-"+result);
+		
+		}catch(ArithmeticException e) {
+			System.out.println("Don't enter zero as the denominator");
 		}
-
-		catch (Exception e) {
-			System.out.println("please don't enter zero as the denominator");
-		}
-
-		System.out.println("The remaining 10,0000 lines of code");
-
+		
+		
+		System.out.println("The remaning 10,000 lines of code");
+	
 	}
 
 }
