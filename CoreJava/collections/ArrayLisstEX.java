@@ -11,6 +11,7 @@ package collections;
 
 //(2)It will stores the insertion order
 
+
 import java.util.ArrayList;
 
 public class ArrayLisstEX {
@@ -22,6 +23,7 @@ public class ArrayLisstEX {
 		al.add("Apple");
 
 		al.add(324234);
+	
 
 		al.add(3.14f);
 
@@ -31,21 +33,7 @@ public class ArrayLisstEX {
 
 		al.add(234);
 
-		al.add("hello");
-
-		al.add("Apple");
-
-		al.add(324234);
-
-		al.add(3.14f);
-
-		al.add(true);
-
-		al.add('c');
-
-		al.add(234);
-
-		al.add("hello");
+		al.add(2,"sasank");
 
 		System.out.println(al);
 	}
