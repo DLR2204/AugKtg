@@ -558,3 +558,8 @@ add(3,4);
 	
 	(3)It will have lots of uility methods.
 	
+	
+	
+	lang -comparable-compareTo(a,b);------------>customaizable sorting order(cso)
+	
+	util -comparator-compare(a,b); --------------->natural sorting order(nso)
