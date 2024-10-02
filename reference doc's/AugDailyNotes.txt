@@ -563,3 +563,20 @@ add(3,4);
 	lang -comparable-compareTo(a,b);------------>customaizable sorting order(cso)
 	
 	util -comparator-compare(a,b); --------------->natural sorting order(nso)
+	
+	
+	
+	FileHandling:-		java.io*
+	------------		
+	
+					
+			(1)create a file            :-File
+
+			(2)write into a file		:-FileWriter
+										  BufferedWriter
+										  PrintWriter
+										  
+			(3)read from a file			:-FileReader
+										  BufferedReader
+										  
+							
