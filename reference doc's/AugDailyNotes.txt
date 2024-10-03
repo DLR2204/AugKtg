@@ -578,5 +578,16 @@ add(3,4);
 										  
 			(3)read from a file			:-FileReader
 										  BufferedReader
-										  
+								
+
+
+				Function Interface :- sam (single abstract method)
 							
+			(1)MultiThreading:-Running several tasks at a time.				
+							
+				synchronised
+				
+				non-synchronised 
+				
+				
+			Junit:- To test a piece of code is called java Unit testing
