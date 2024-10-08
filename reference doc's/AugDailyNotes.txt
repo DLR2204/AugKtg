@@ -591,3 +591,57 @@ add(3,4);
 				
 				
 			Junit:- To test a piece of code is called java Unit testing
+			
+			
+			
+								Database:-
+								---------
+		
+		Data :- Raw info of real world entitites.
+		
+		Database :- To store the info in an organised and secured way for the future access.
+
+				
+								
+		apple	376	
+		
+		oranges	343
+		    
+		rose	343
+					
+		tulips  354	
+		
+
+		RDBMS :- Tables (Rows(records) + Columns(fields))
+
+
+		Queires:- Command to do any operation in the db.
+
+				
+			(1)DDL(Data Definition Language):-create,alter,drop,truncate,rename.. (auto-committed)
+			(2)DML(Data Manipulation Language):- insert ,update,delete..        (not auto-committed)
+			(3)DRL(Data Retrival Language):- select
+			(4)DCL(Data Control Language) :- grant,revoke
+			(5)TCL(Transaction Control Language) :- commit ,rollback
+
+
+	drop :- It will deletes the entire table
+	
+	truncate :- It will deletes all the records inthe table.
+	
+	delete :- It will deletes the selected rows.
+	
+	
+	
+								JDBC:-(Java Database connectivity)
+								=====
+								
+		(1)Loading the drivers
+
+		(2)creating the connection
+									
+		(3)Create the statement
+		
+		(4)Execute the statement
+		
+		(5)Close the connections.
