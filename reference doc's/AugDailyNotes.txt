@@ -645,3 +645,146 @@ add(3,4);
 		(4)Execute the statement
 		
 		(5)Close the connections.
+		
+		
+		limitations:-
+		------------
+		
+		(1)Queires
+		
+		(2)Creating table 
+		
+		(3)Exception Handling
+		
+		(4)db prop's,logic in same file
+		
+		(5)Boiler's plate code(repeated code)
+		
+		
+		jpa(java persistance API)-------------->[specification]:-
+		---
+		
+		(1)No Queires
+		
+		(2)No Tables creation-----core java
+		
+		(3)No Exception Handling
+		
+		(4)Separate files to db prop's ,logic
+		
+		(5)No boiler's plate code
+		
+		
+		implementations of jpa :- orm tools(object reltional mapping )
+		
+		
+		hibernate , ecllipse-link,top-link,ibatis..........
+		
+		
+		no queries ---------->	querie equivalent methods
+		
+		no table creation ---> java class 
+		
+		db props-------->persistence.xml , logic ----->java
+		
+		
+		hibernate work :- is to 
+		
+		
+		class --------->table
+		
+		variables ------>columns
+		
+		objects -------->rows
+		
+		In EntityManager 
+		
+		insert ----->persist();
+		
+		update ----->merge();
+		
+		select ----->find();
+		
+		delete ----->remove();
+		
+		
+		
+		
+		Maven:-It's a build tool
+		
+		
+									Spring:-
+									======
+	Def:-  Spring is a non-invasive framework which is used to develop loosely coupled nd 
+	==== 								light-weighted web applications
+		
+		
+		
+			invasive:-it will forces the programmer to import the predefined api
+				
+			non-invasive:-it will forces the programmer to import the predefined api
+			
+			
+			class A{
+			
+			10,000
+				}
+				
+			class B extends A{
+			10 methods
+			
+			}
+			
+			class C extends B{
+			
+			1 methods    ------->  C is heavy-weighted
+			
+			}
+
+
+			tightly coupled :- If the dependencies are very high
+			
+			loosley couple :- If the dependencies are very low
+									
+									
+	
+		spring security;spring data jpa;spring core ;spring boot;spring cloud
+								
+				
+				
+		Spring Core:-	It will avoid the dependencies between the classes.To make our application 
+		-----------			a loosley coupled one. ---------> No object creation manually
+							
+							
+				Containers :- Containers will creates the (object)dependencies for us
+			
+							(1)Application Context
+							
+							(2)Bean Factory
+							
+							
+				Dependency Injection :-Injecting the data into an (object)dependency
+				
+							(1)setter injection   <property></property>
+							
+							(2)Constructor injection  <constructor-arg></constructor-arg>
+							
+				Configurations :-
+				
+							(1)Xml configuration
+							
+							(2)Annotation configuration
+							
+		--->Autowiring :- Injecting the data/object into an object.
+		
+		
+		Spring Boot:-
+		-----------
+		
+			(1)Automactic Configuration
+			
+			(2)Embedded server  :-Tomcat
+			
+			(3)Starters :- set of jar files
+			
+			(4)Actuators :-gets the health/env/updates of our app through urls.
