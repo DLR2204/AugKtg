@@ -783,8 +783,27 @@ add(3,4);
 		
 			(1)Automactic Configuration
 			
-			(2)Embedded server  :-Tomcat
+			(2)Embedded server  :-Tomcat:8080
 			
 			(3)Starters :- set of jar files
 			
 			(4)Actuators :-gets the health/env/updates of our app through urls.
+			
+			
+		Controller:- It will interact with the ui through urls
+		
+		Dao :- It will interact with the database through hibernate
+		
+		service :- It carries the services b/n controller nd dao
+		
+		entity:- It is the common table to our entire project
+		
+		
+		Spring Rest:-
+		------------
+		
+		WebServices :- WebServices is to make interaction b/n two interoperable app's.
+		
+				(1)SOAP :- XML is the only common lang[Simple object Access Program]
+				
+				(2)REST :-xml,json,txt,php,html.....[Representation State Transfer]
